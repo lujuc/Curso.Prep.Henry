@@ -1,9 +1,0 @@
-Variables : nos permiten alamacenar datos para luego ser utilizados ya sea para almacenar un mensaje de texto o guardar un dato numerico, etc, 
-para asignar un dato a una variable se utiliza el signo igual que (=), podemos utilizar las siguientes palabras clave para declarar una variable
-var, let, const esta ultoma es una constante la cual no va a poder cambiar su valor. un ejemplo para declarar y asiganar valor a una variable
-ejm: var edad= 30;
-
-Strings: son cadenas de texto, para asignar una cadena de texto a una variable se hace entre comillas ejmplo var saludo= "hola luis";
-Funciones (argumentos, return)= es una parte o seccion del programa que reaiza una tarea de manera independiente y retorna o devuelve un valor
-Declaracionesif: es una estructura condicional, esta resuelve si algo es verdadero realiza una accion y si no lo es realiza otra accion
-Valores booleanos ( true, false) : los valores booleanos devuelven verdadero (true) o falso (false)
