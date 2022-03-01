@@ -1,0 +1,59 @@
+for : es un bucle o ciclo, se utiliza para repetir un determinado numero de veces una istruccion, normalmente se utiliza cuando 
+se sabe el numero de veces que se va a ejecutar una instruccion, un ejemplo de como esta estructurado:
+ for(var i =1; i<=10; i++){ 
+	//aqui se ejecuta la sentencia
+}
+
+// var i=1 aqui se inicializa una variable con el valor de 1
+//i<=10 aqui se indica el numero de veces que se va a repetir la sentencia
+en este caso se ejecutara 10 veces ya que i=1 y este va ir incrementando de 1 en 1 hasta llegar a 10.
+i++ aqui indica el incremento de i es decir que va incrementar de 1 en 1.
+
+&&, ||, !: es son operadores logicos
+
+&& este es el operador "Y" ("AND") lo representamos con && nos va ayudar a 
+evaluar expresiones; si ambas expresiones son verdaderas nos devuelve TRUE
+si una de ellas son falsas nos devuelve FALSO.
+
+por ejemplo:
+
+* vamos a evaluar estos datos: mi nombre es Antonio y vivo en Peru.
+
+if(var nombre='Antonio' && var vivo= Peru){
+// de acuerdo a lo expresado arriba(*) se estaria cumpliendo ambas declaraciones
+// por lo tanto esto nos devolvera que es TRUE y el codigo que pongamos se ejecutará.
+
+}
+if(var nombre='Antonio' && var vivo= Chile){
+// de acuerdo a lo expresado arriba(*)no  se estaria cumpliendo una de las declaraciones
+// por lo tanto esto nos devolvera que es FALSE y el codigo que pongamos no se va a ejecutar.
+
+}
+
+|| este es el operador logio "Ó" ("OR") re representamos con || nos ayuda a evaluar si una o ambas expresiones son
+verdaderas si esto se cumple devuelve TRUE, ahora si ambas expresiones son falsas nos devuelve FALSE
+
+por ejemplo:
+if (100 > 10 || 10 === 10) {
+    console.log('Ambas declaraciones son ciertas, este código se ejecutará');
+}
+
+if (10 === 9 || 10 > 9) {
+    console.log('Una de las declaraciones es true, por lo que || devolverá true y este código se ejecutará');
+}
+
+if (10 === 9 || 1 > 9) {
+    console.log('Ambas declaraciones son falsas, por lo que || devolverá false y este código no se ejecutará');
+}
+
+! este es el operador logico NOT ("NO") se representa con el signo de exclamación. basicamete con este negamos algo.
+
+por ejemplo:
+
+var letra='A'; // aqui le estamos pasando a la variable "letra" el valor de "A"
+if (letra !=='A'){
+	// aqui preguntamos lo siguiente: "letra" es diferente de "A" entonces 
+nos devuelve falso o FALSE porque segun la declaración de variable que hicimos arriba "letra" no es diferente de A
+}
+
+
